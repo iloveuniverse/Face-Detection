@@ -204,7 +204,7 @@ face=detector.detect_faces(frame)
 var=draw_frame(frame, face)
 pyplot.imshow(var)
 pyplot.show()
-# filename = 'C:/Users/neeru/Downloads/webcam.jpg'
+# filename = 'C:/Users/Pragya/Downloads/webcam.jpg'
 # # load image from file
 # pixels = pyplot.imread(filename)
 # # create the detector, using default weights
@@ -219,9 +219,9 @@ pyplot.show()
 import cv2
 from mtcnn import MTCNN
 
-# face_cascade=cv2.CascadeClassifier('C:/Users/neeru/Downloads/haarcascade_frontalface_default.xml')
+# face_cascade=cv2.CascadeClassifier('C:/Users/Pragya/Downloads/haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
-# cap=cv2.VideoCapture('C:/Users/neeru/Downloads/webvideo.mp4')
+# cap=cv2.VideoCapture('C:/Users/Pragya/Downloads/webvideo.mp4')
 
 while True:
 	_, img = cap.read()
